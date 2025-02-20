@@ -10,7 +10,7 @@ Este repositório contém quatro projetos de Engenharia de Dados utilizando dife
 
 - **Tecnologias:** Apache Airflow, Google Cloud Storage, Apache Beam, Dataflow, BigQuery
 - **Cenário:** Extração de dados de uma API de e-commerce, transformação com Apache Beam e carga no BigQuery para análise.
-- **Destaques:** Automatiso e monitoramento com Airflow, escalabilidade no Dataflow, análise via SQL no BigQuery.
+- **Destaques:** Automatização e monitoramento com Airflow, escalabilidade no Dataflow, análise via SQL no BigQuery.
 
 ### 2. Pipeline de Logs com AWS Glue e Redshift
 
