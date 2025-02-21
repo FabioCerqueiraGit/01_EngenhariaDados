@@ -1,0 +1,9 @@
+{
+    "name": "LinkedServiceMySQL",
+    "properties": {
+        "type": "MySql",
+        "typeProperties": {
+            "connectionString": "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;"
+        }
+    }
+}

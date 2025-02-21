@@ -1,0 +1,13 @@
+{
+    "name": "DatasetMySQL",
+    "properties": {
+        "type": "MySqlTable",
+        "linkedServiceName": {
+            "referenceName": "LinkedServiceMySQL",
+            "type": "LinkedServiceReference"
+        },
+        "typeProperties": {
+            "tableName": "Produtos"
+        }
+    }
+}

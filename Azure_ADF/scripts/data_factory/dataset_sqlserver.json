@@ -1,0 +1,13 @@
+{
+    "name": "DatasetSQLServer",
+    "properties": {
+        "type": "SqlServerTable",
+        "linkedServiceName": {
+            "referenceName": "LinkedServiceSQLServer",
+            "type": "LinkedServiceReference"
+        },
+        "typeProperties": {
+            "tableName": "Clientes"
+        }
+    }
+}

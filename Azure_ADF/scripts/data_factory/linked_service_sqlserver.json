@@ -1,0 +1,9 @@
+{
+    "name": "LinkedServiceSQLServer",
+    "properties": {
+        "type": "SqlServer",
+        "typeProperties": {
+            "connectionString": "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;"
+        }
+    }
+}

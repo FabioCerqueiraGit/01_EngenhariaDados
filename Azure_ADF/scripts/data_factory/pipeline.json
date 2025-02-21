@@ -1,0 +1,31 @@
+{
+    "name": "PipelineIntegracaoDados",
+    "properties": {
+        "activities": [
+            {
+                "name": "CopyDataSQLServerToBlob",
+                "type": "Copy",
+                "typeProperties": {
+                    "source": {
+                        "type": "SqlSource"
+                    },
+                    "sink": {
+                        "type": "BlobSink"
+                    }
+                }
+            },
+            {
+                "name": "CopyDataMySQLToBlob",
+                "type": "Copy",
+                "typeProperties": {
+                    "source": {
+                        "type": "SqlSource"
+                    },
+                    "sink": {
+                        "type": "BlobSink"
+                    }
+                }
+            }
+        ]
+    }
+}

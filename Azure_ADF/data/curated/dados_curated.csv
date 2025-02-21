@@ -1,0 +1,4 @@
+ClienteID,Nome,Email,TotalPedidos,TotalGasto
+1,João Silva,joao.silva@example.com,5,1500.00
+2,Maria Oliveira,maria.oliveira@example.com,3,800.00
+3,Carlos Souza,carlos.souza@example.com,7,2100.00
