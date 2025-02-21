@@ -45,6 +45,8 @@ Este projeto implementa um pipeline de ETL utilizando o Apache Airflow para orqu
  ┣ 📂 scripts
  ┃ ┣ 📜 transform.py  # Código para Apache Beam
  ┣ 📜 README.md
+ ┣ 📜 deploy_airflow_dataflow.sh
+ ┣ 📜 setup_gcp.sh
 ```
 
 ## Execução do Pipeline
