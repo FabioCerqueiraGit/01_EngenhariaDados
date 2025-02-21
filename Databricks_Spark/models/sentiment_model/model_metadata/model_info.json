@@ -1,0 +1,27 @@
+{
+    "model_name": "SentimentAnalysisModel",
+    "algorithm": "LogisticRegression",
+    "version": "1.0.0",
+    "training_date": "2023-10-05",
+    "hyperparameters": {
+        "maxIter": 100,
+        "regParam": 0.01,
+        "elasticNetParam": 0.8
+    },
+    "metrics": {
+        "accuracy": 0.85,
+        "precision": 0.83,
+        "recall": 0.87,
+        "f1_score": 0.85
+    },
+    "features": {
+        "input_features": ["clean_text"],
+        "output_feature": "sentiment"
+    },
+    "data_source": {
+        "raw_data": "data/raw/tweets_raw.json",
+        "processed_data": "data/processed/tweets_processed.parquet"
+    },
+    "author": "Fábio Cerqueira - www.fabiocerqueira.com",
+    "description": "Modelo de análise de sentimentos treinado com Spark MLlib para classificar tweets como positivos, negativos ou neutros."
+}
