@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "text": "Adorei o novo recurso do Databricks! #databricks #bigdata",
+        "user": "joaosilva",
+        "created_at": "2023-10-01T12:00:00Z"
+    },
+    {
+        "id": 2,
+        "text": "Estou tendo problemas com a configuração do Spark. Alguém pode ajudar? #spark #help",
+        "user": "mariaoliveira",
+        "created_at": "2023-10-01T12:05:00Z"
+    },
+    {
+        "id": 3,
+        "text": "Finalmente consegui rodar meu job no Databricks! #success #databricks",
+        "user": "carlossouza",
+        "created_at": "2023-10-01T12:10:00Z"
+    },
+    {
+        "id": 4,
+        "text": "O que é Delta Lake? Alguém pode explicar? #deltalake #bigdata",
+        "user": "anacarvalho",
+        "created_at": "2023-10-01T12:15:00Z"
+    },
+    {
+        "id": 5,
+        "text": "Estou frustrado com a lentidão do cluster. #spark #performance",
+        "user": "pedroalves",
+        "created_at": "2023-10-01T12:20:00Z"
+    }
+]
